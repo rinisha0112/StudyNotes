@@ -1,1 +1,1 @@
-# StudyNotes
+Hi visitor! You are at the right place right time! This is a treasure. You will find short code snippets of every concept of system design and architecture here that you can play with. 
