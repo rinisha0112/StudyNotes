@@ -91,7 +91,7 @@ def login_account(user, password):
 
 
 if __name__ == '__main__':
-    print("1. sign up \n 2. log in")
+    print("Press 1 to sign up \n Press 2 to log in")
     inp = int(input(">"))
     if inp == 1:
         user = input('enter email: ')
