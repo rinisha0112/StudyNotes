@@ -572,3 +572,16 @@ Everything:
 …eventually becomes gigantic organized patterns of tiny physical states inside matter.
 
 
+---
+
+Now post this, I also learned about how transistors are able to store and persist data.
+It was amazing. I went through a complete revision of electronics class and it all made sense. 
+
+I will put it here in a condensed way:
+
+Transistors are used to form Gates like AND NAND NOR OR XOR --> these gates can be combined configured together to create latches/flip-flops which are used by RAM to hold data. but as we know that its volatile as soon as power is off the data stop persisting.
+
+The current cache technologies are based on RAM only. Which means if power is lost your cache is lost. that's why companies like Redis have technologies like Snapshots and Appen-only-logs.
+
+In Snapshots, we store cache data at a point-in-time to a binary file. It is reloaded on restart
+In Append-only-logs, each write in appended to a file. In failure scenario, the file is used to make fresh writes to cache and store the data.   
